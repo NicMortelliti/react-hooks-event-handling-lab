@@ -2,9 +2,9 @@ import React from "react";
 
 function EyesOnMe() {
   return (
-    <div>
-      <p>EyesOnMe</p>
-    </div>
+      <button
+      onFocus={() => console.log('Good!')}
+      onBlur={() => console.log('Hey! Eyes on me!')}>Eyes on me</button>
   );
 }
 
